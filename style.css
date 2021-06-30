@@ -59,7 +59,7 @@ section{
 
 /* IMP */
 section img{
-    width:90%;
+    width:50%;
     height:80%;
     object-fit:cover;
 }   
