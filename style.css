@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#f9b9b7;
+    font-family:sans-serif;
+    transition:all 0.5s ease;
+
+}
+
+
+/* IMP */
+header{
+    height:100vh;
+    display:flex;
+    justify-content:center; /*applied horizontal*/
+    align-items:center;     /*applied vertically*/
+    text-align: center;
+}
+
+.intro h1{
+    font-size:50px;
+    margin-bottom: 1rem;
+}
+
+.intro p{
+    font-size:22px;
+}
+
+
+/* IMP */
+section{
+    height:100vh;
+    display:flex; 
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.page{
+    text-align: center;
+    width:30%;
+}
+
+.page h1
+{
+    margin-bottom:1rem;
+    font-size:30px;
+}
+
+.page p
+{
+   line-height: 1;
+}
+
+
+/* IMP */
+section img{
+    width:50%;
+    height:70%;
+    object-fit:cover;
+}   
+
+
+/* Utility class */
+
+.bg-color{
+    background-color:#fff;
+}
